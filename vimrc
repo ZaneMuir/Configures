@@ -18,7 +18,11 @@ set number
 
 set shiftwidth=4
 set tabstop=4
+set noexpandtab
+set softtabstop=4
 
+set colorcolumn=64
+highlight ColorColumn ctermbg=darkgray
 
 
 colorscheme nord
