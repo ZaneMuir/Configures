@@ -22,9 +22,13 @@ set tabstop=4
 set noexpandtab
 set softtabstop=4
 
+autocmd BufWritePre * %s/\s\+$//e "automatically remove trailing space
+
 set colorcolumn=64
 highlight ColorColumn ctermbg=darkgray
 
+set background=dark
+set t_Co=256
 
 colorscheme nord
 let g:nord_italic=1
